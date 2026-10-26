@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="yocto"		fetch="https://git.yoctoproject.org"/>
+  <remote name="oe"		fetch="https://github.com/openembedded"/>
+  <remote name="kraj"		fetch="https://github.com/kraj"/>
+
+  <project name="meta-raspberrypi"	path="sources/meta-raspberrypi"		remote="yocto"		revision="0f68e8754514d64f2fe5480195b8992f341d54af"	upstream="walnascar"/>
+  <project name="poky"			path="sources/poky"			remote="yocto"		revision="d0b46a6624ec9c61c47270745dd0b2d5abbe6ac1"	upstream="walnascar"/>
+  <project name="meta-openembedded"	path="sources/meta-openembedded"	remote="oe"		revision="07330a98cf93806b7a4e0170a541b94962ff3960"	upstream="walnascar"/>
+  <project name="meta-clang"		path="sources/meta-clang"		remote="kraj"		revision="5945abf78de6c4b0269c4496fb63227344f79df7"	upstream="walnascar"/>
+
+</manifest>
